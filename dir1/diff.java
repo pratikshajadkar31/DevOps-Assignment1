@@ -2,8 +2,10 @@ public class diff
 {
     public static void main (String args[])
     {
-        int a = 10 , b=15,diff ;
+        int a = 10 , b=15,diff,mult ;
          diff= a - b;
-        system.out.println("diff : " + diff);
+        System.out.println("diff : " + diff);
+        mult = a*b;
+        System.out.println("mult"+mult);
     }
 }
